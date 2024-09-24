@@ -95,7 +95,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/code-tailors-background.gif) left top repeat;
+	background:url(../img/code-tailors-background-5.webp) left top repeat;
 	padding:280px 0;
 	
 }
@@ -103,6 +103,7 @@ p{
 	width:130px;
 	margin:0 auto 35px;
 }
+
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
