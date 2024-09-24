@@ -259,7 +259,7 @@ color: #fff;
 	overflow:hidden;	
 }
 .main-section.alabaster{
-	background:#fafafa;
+	background:#fafafa;	
 }
 
 /* Featured Work
@@ -296,6 +296,7 @@ color: #fff;
 	color:#777777;
 	font-style:normal;
 }
+
 .featured-box-col2{ overflow:hidden;}
 .featured-box.magic{
 	background:url(../img/magic.png) left top no-repeat;
