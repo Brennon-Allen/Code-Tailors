@@ -18,7 +18,10 @@
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
-	.header h1{ font-size:46px;}
+	.header{
+		padding:60px 0;
+		height: 100vh;
+	}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
@@ -53,7 +56,10 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
-	.header{ padding:60px 0;}
+	.header{
+		padding:60px 0;
+		height: 100vh;
+	}
 	.main-section{ padding:60px 0 70px;}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; background:#fff;}
 	.main-nav li{ display:block;}
@@ -94,7 +100,10 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
-	.header{ padding:40px;}
+	.header{ 
+		padding:40px;
+		height: 100vh;
+	}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
