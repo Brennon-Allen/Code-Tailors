@@ -112,6 +112,10 @@ p{
 	color:#fff;
 }
 
+#welcome--text {
+	font-weight: 900;
+}
+
 .we-create{
 	padding:0;
 	margin:35px 0 55px;
