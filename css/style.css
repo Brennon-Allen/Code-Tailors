@@ -112,9 +112,21 @@ p{
 	color:#fff;
 }
 
+/*** Brennon's contributions to CSS ***/
+/* ----------------------------------*/
+
 #welcome--text {
 	font-weight: 900;
 }
+
+#get--started--button {
+	background: linear-gradient(to left, #af4029, #ff7b00, #fea858);
+	border: 1px solid white;
+	font-weight: 600;
+}
+
+/*** End of contributions ***/
+
 
 .we-create{
 	padding:0;
