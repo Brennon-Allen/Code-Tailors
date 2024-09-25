@@ -9,10 +9,14 @@
 	.service-list{ margin-bottom:30px;}
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
+	.main-section{ 
+		padding:70px 0;
+		top: 100px;
+	}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
-}	
+}
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
@@ -33,7 +37,10 @@
 	h3{ font-size:15px;}
 	.service-list{ margin-bottom:20px; font-size:15px;}
 	.featured-work p.padding-b{ padding-bottom:15px;}
-	.main-section{ padding:70px 0;}
+	.main-section{ 
+		padding:70px 0;
+		top: 100px;
+	}
 	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
 	.c-logo-part ul li a{ display:block;}
 	.c-logo-part ul li a img{ display:block;}
@@ -68,7 +75,10 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.main-section{ padding:60px 0 70px;}
+	.main-section{ 
+		padding:60px 0 70px;
+		top: 100px;
+	}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; background:#fff;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
