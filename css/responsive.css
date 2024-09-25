@@ -17,7 +17,7 @@
 		width: 100vw;
 	}
 	#services {
-		margin-top: 150px;
+		padding-top: 150px;
 	}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
@@ -37,7 +37,7 @@
 		align-items: center;
 	}
 	#services {
-		margin-top: 150px;
+		padding-top: 150px;
 	}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
@@ -89,7 +89,7 @@
 		top: 100px;
 	}
 	#services {
-		margin-top: 150px;
+		padding-top: 150px;
 	}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; background:#fff;}
 	.main-nav li{ display:block;}
@@ -139,7 +139,7 @@
 		align-items: center;
 	}
 	#services {
-		margin-top: 150px;
+		padding-top: 150px;
 	}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
