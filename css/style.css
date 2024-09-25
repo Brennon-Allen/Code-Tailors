@@ -173,7 +173,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#f77f14;
+	background:#0a4041;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -358,6 +358,7 @@ color: #fff;
 	margin:0 10px;
 	display:inline;
 }
+
 .Portfolio-nav li a{
 	display:inline-block;
 	padding:10px 22px;
@@ -373,8 +374,9 @@ color: #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
+
 .Portfolio-nav li a:hover{
-	background:#ff9100;
+	background:#0a4041;
 	color:#fff;
 	text-decoration:none;
 }
@@ -405,7 +407,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#f77f14;
+	background:#0a4041;
 	color:#fff;
 	text-decoration:none;
 }
