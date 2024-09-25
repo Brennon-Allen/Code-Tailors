@@ -95,9 +95,9 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/code-tailors-background.gif) left top repeat;
+	background:url(../img/calm-gif.gif) left top repeat;
 	padding:280px 0;
-	
+	background-size: cover;
 }
 .logo{
 	width:130px;
@@ -121,7 +121,7 @@ p{
 }
 
 #get--started--button {
-	background: linear-gradient(to left, #af4029, #ff7b00, #fea858);
+	background: linear-gradient(to right, #0a4041, #9dfdf5);
 	border: 1px solid white;
 	font-weight: 600;
 }
