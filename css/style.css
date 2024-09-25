@@ -94,16 +94,16 @@ p{
 ---------------------------------*/
 
 .header{
-	text-align:center;
-	background:url(../img/calm-gif.gif) left top repeat;
-	height: 100vh;;
+	text-align: center;
+	background: url(../img/calm-gif.gif) left top repeat;
+	height: 100vh;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	align-items: center;
 }
+
 .logo{
 	width:130px;
 	margin:0 auto 35px;
@@ -127,6 +127,12 @@ p{
 
 #get--started--button {
 	background: linear-gradient(to right, #0a4041, #9dfdf5);
+	border: 1px solid white;
+	font-weight: 600;
+}
+
+#get--started--button:hover {
+	background: linear-gradient(to right, #0a4041, #13655e);
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -187,7 +193,7 @@ color: #fff;
 }
 
 .link:active, .link:focus {
-	background: #f77f14;
+	background: #00f2ff;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -226,7 +232,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #f77f14;
+	color: #14ddf7;
 }
 
 .small-logo{ 
@@ -235,7 +241,6 @@ color: #fff;
 
 .main-section{
 	padding:90px 0 110px;
-	padding-top: 225px;
 }
 
 
@@ -246,7 +251,6 @@ color: #fff;
 	padding:0 0 0 0;
 	font-size:14px;
 	margin-bottom:40px;
-	margin-top: 50px;
 }
 .service-list-col1{
 	float:left;
@@ -264,7 +268,7 @@ color: #fff;
 	overflow:hidden;	
 }
 .main-section.alabaster{
-	background:#fafafa;	
+	background:#fafafa;
 }
 
 /* Featured Work
