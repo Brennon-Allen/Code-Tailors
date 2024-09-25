@@ -96,8 +96,13 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/calm-gif.gif) left top repeat;
-	padding:280px 0;
+	height: 100vh;;
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
 }
 .logo{
 	width:130px;
