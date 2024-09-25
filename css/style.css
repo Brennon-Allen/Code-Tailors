@@ -499,7 +499,7 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#f77f14;
+	background:#0a4041;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
@@ -741,7 +741,7 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .input-text:focus {
-	border: 1px solid #f77f14;
+	border: 1px solid #0a4041;
 	outline:0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);	
@@ -756,7 +756,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#f77f14;
+	background:#0a4041;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -792,7 +792,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .copyright a{
-	color:#f77f14;
+	color:#0a4041;
 	font-weight:600;
 	text-decoration: none;
 	transition:all 0.3s ease-in-out;
@@ -809,7 +809,7 @@ border: 2px solid #fff;
 	font-family: 'FontAwesome';
 	font-size:38px;
 	text-decoration: none !important;
-	color:#777777;
+	color:#2a2a2a;
 	font-style:normal;
 	display:none;
 	width:42px;
@@ -821,7 +821,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #f77f14 !important;
+	color: #0a4041 !important;
 }
 
 .portfolioContainer{
