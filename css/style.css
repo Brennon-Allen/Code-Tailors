@@ -202,9 +202,14 @@ color: #fff;
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
+	height: 100px;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background:#fff;
 }
 .main-nav{

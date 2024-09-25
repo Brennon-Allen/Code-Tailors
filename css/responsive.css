@@ -13,6 +13,9 @@
 		padding:70px 0;
 		top: 100px;
 	}
+	.main-nav-outer {
+		height: 100px;
+	}
 	.header {
 		width: 100vw;
 		background-size: 100vw;
@@ -40,8 +43,8 @@
 		justify-content: center;
 		align-items: center;
 	}
-	#services {
-		padding-top: 150px;
+	.main-nav-outer {
+		height: 100px;
 	}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
@@ -61,7 +64,7 @@
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
 	
-	.main-nav{ display:block !important; }
+	.main-nav{ display: block !important; }
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
@@ -80,6 +83,9 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
+	.main-nav-outer {
+		height: 100px;
+	}
 	.header{
 		padding:60px 0;
 		width: 100vw;
@@ -93,9 +99,6 @@
 	.main-section{ 
 		padding:60px 0 70px;
 		top: 100px;
-	}
-	#services {
-		padding-top: 150px;
 	}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; background:#fff;}
 	.main-nav li{ display:block;}
@@ -136,6 +139,9 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
+	.main-nav-outer {
+		height: 100px;
+	}
 	.header{ 
 		padding:40px;
 		width: 100vw;
@@ -144,9 +150,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-	}
-	#services {
-		padding-top: 150px;
 	}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
