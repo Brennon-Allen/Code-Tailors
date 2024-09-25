@@ -97,7 +97,7 @@ p{
 	text-align: center;
 	background: url(../img/calm-gif.gif) left top repeat;
 	height: 100vh;
-	background-size: 100%;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
