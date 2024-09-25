@@ -530,6 +530,9 @@ border: 2px solid #fff;
 .team-leader-block{
 	max-width:993px;
 	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .team-leader-box{
 	width:30.66%;
