@@ -143,6 +143,22 @@ p{
 	background-image: url('../img/social-icons.png');
 }
 
+.calendly-inline-widget {
+	width: 100%;
+	max-width: 1250px;
+	height: 70%;
+}
+
+.calendar-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 1000px;
+	margin-top: 10px;
+}
+
 /*** End of contributions ***/
 
 
