@@ -138,6 +138,11 @@ p{
 	border: 1px solid white;
 	font-weight: 600;
 }
+
+.fa-social {
+	background-image: url('../img/social-icons.png');
+}
+
 /*** End of contributions ***/
 
 
@@ -876,5 +881,4 @@ border: 2px solid #fff;
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
 }
-
 
