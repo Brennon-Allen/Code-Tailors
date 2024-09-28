@@ -146,7 +146,7 @@ p{
 .calendly-inline-widget {
 	width: 100%;
 	max-width: 1500px;
-	height: auto;
+	height: 100%;
 	top: 0;
 	text-align: center;
 	display: flex;
@@ -158,7 +158,7 @@ p{
 	justify-content: top;
 	align-items: center;
 	width: 100vw;
-	height: 1000px;
+	height: auto;
 	margin-top: 10px;
 }
 
