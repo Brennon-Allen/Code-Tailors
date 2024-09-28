@@ -145,14 +145,17 @@ p{
 
 .calendly-inline-widget {
 	width: 100%;
-	max-width: 1250px;
-	height: 70%;
+	max-width: 1500px;
+	height: auto;
+	top: 0;
+	text-align: center;
+	display: flex;
 }
 
 .calendar-section {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: top;
 	align-items: center;
 	width: 100vw;
 	height: 1000px;
