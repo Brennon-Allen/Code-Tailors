@@ -76,16 +76,6 @@
     </nav><!--main-nav-end-->
 
     <section class="main-section" id="service"><!--main-section-start-->
-        <div class="calendar-section">
-            <h1>Ready to get busy?</h1>
-            <h2>Schedule a Free Consultation</h2>
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget"
-                data-url="https://calendly.com/brennon-allen-code-tailors/consultation?primary_color=033a55"
-                style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
-        </div>
         <div class="container" id="service-test">
             <h2>Our Services</h2>
             <h6>We deliver innovative and cutting-edge IT solutions.</h6>
@@ -133,7 +123,7 @@
                 </div> -->
                 </div>
                 <figure class="col-lg-8 col-sm-6 text-right wow fadeInUp delay-02s">
-                    <img src="img/macbook-pro.png" alt="Code-tailors Services">
+                    <img id="macbook" src="img/macbook-pro.png" alt="Code-tailors Services">
                 </figure>
             </div>
         </div>
@@ -143,17 +133,16 @@
     <section class="main-section alabaster"><!--main-section alabaster-start-->
         <div class="container">
             <div class="row">
-                <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <img src="./img/app-image.png" alt="Our Work">
-                </figure>
                 <div class="col-lg-7 col-sm-8 featured-work">
+                    <div class="flexbox">
                     <h2>Project Scope</h2>
                     <p class="padding-b">At Code Tailors, we take pride in delivering exceptional software solutions
                         that are innovative and effective. Explore our recent projects that showcase our commitment to
                         quality and user satisfaction.</p>
+                    </div>
                     <div class="featured-box">
                         <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-laptop-code"></i>
+                            <i class="fa-solid fa-window-maximize"></i>
                         </div>
                         <div class="featured-box-col2 wow fadeInRight delay-02s">
                             <h3>Responsive Web Applications</h3>
@@ -180,8 +169,10 @@
                             <p>We ensure that your online presence is optimized for search engines, driving more traffic
                                 to your website.</p>
                         </div>
+                        <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+                            <img id="diagram" src="./img/app-image.png" alt="image">
+                        </figure>
                     </div>
-                    <a class="Learn-More" href="#">Discover More</a>
                 </div>
             </div>
         </div>
@@ -193,7 +184,6 @@
     <section class="main-section paddind" id="Portfolio"><!--main-section-start-->
         <div class="container">
             <h2>Portfolio</h2>
-            <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
                     <li><a href="#" data-filter="*" class="current">All</a></li>
@@ -272,18 +262,18 @@
     </div><!--c-logo-part-end-->
     <section class="main-section team" id="team"><!--main-section team-start-->
         <div class="container">
-            <h2>team</h2>
+            <h2>Team</h2>
             <div class="team-leader-block clearfix">
                 <div class="team-leader-box">
                     <div class="team-leader wow fadeInDown delay-03s">
                         <div class="team-leader-shadow"><a href="#"></a></div>
                         <img src="img/j.jpg" alt="">
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#" class="fa-Mail"></a></li>
                             <li><a href="#" class="fa-facebook"></a></li>
                             <li><a href="#" class="fa-pinterest"></a></li>
                             <li><a href="#" class="fa-google-plus"></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <h3 class="wow fadeInDown delay-03s">Joseph peter kamvabingu</h3>
                     <span class="wow fadeInDown delay-03s">Front-End Developer</span>
@@ -297,12 +287,12 @@
                     <div class="team-leader  wow fadeInDown delay-06s">
                         <div class="team-leader-shadow"><a href="#"></a></div>
                         <img src="img/bre.jpg" alt="">
-                        <ul>
+                        <!-- <ul>
                             <li><a href="#" class="fa-twitter"></a></li>
                             <li><a href="#" class="fa-facebook"></a></li>
                             <li><a href="#" class="fa-pinterest"></a></li>
                             <li><a href="#" class="fa-google-plus"></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <h3 class="wow fadeInDown delay-06s">Brennon Allen</h3>
                     <span class="wow fadeInDown delay-06s">Back-End Developer</span>
@@ -333,13 +323,16 @@
 
 
 
-    <section class="business-talking"><!--business-talking-start-->
-        <div class="container">
-            <h2>Let’s Talk Business.</h2>
-        </div>
     </section><!--business-talking-end-->
     <div class="container">
         <section class="main-section contact" id="contact">
+            <h2>Schedule a Free Consultation</h2>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget"
+                data-url="https://calendly.com/brennon-allen-code-tailors/consultation?primary_color=033a55"
+                style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
 
             <div class="row">
                 <div class="col-lg-6 col-sm-7 wow fadeInLeft">
@@ -359,15 +352,15 @@
                 	<h3><i class="fa-clock-o"></i>Hours:</h3>
                 	<span><strong>Monday - Friday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
                 </div> -->
-                    <ul class="social-link">
+                    <!-- <ul class="social-link">
                         <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
                         <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
                         <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
                         <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
                         <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <h2>Contact Us</h2>
+                <h2 id="contact-text">Contact Us</h2>
                 <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                     <div class="form">
                         <input class="input-text" type="text" name="" value="Your Name *"

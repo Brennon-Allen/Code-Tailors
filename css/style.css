@@ -96,10 +96,10 @@ p{
 .header{
 	text-align: center;
 	background-color: black;
-	background: url(../img/calm-gif.gif) left top repeat;
+	background: url(../img/calm-gif.gif) left top no-repeat;
 	background-position: 25%;
 	height: 100vh;
-	background-size: cover;
+	background-size: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -143,22 +143,40 @@ p{
 	background-image: url('../img/social-icons.png');
 }
 
+.flexbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#diagram {
+	margin-top: 25px;
+	width: 100%;
+}
+
+#macbook {
+	margin-top: 50px;
+}
+
 .calendly-inline-widget {
 	width: 100%;
 	max-width: 1500px;
-	height: 100%;
+	height: auto;
 	top: 0;
 	text-align: center;
 	display: flex;
+	margin-bottom: 100px;
+	background-color: #dddddd;
 }
 
 .calendar-section {
 	display: flex;
 	flex-direction: column;
-	justify-content: top;
+	justify-content: center;
 	align-items: center;
-	width: 100vw;
-	height: auto;
+	width: 100%;
+	height: fit-content;
 	margin-top: 10px;
 }
 
@@ -674,7 +692,7 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:100px 0 100px;
 }
 
 .main-section.contact{
@@ -685,6 +703,11 @@ border: 2px solid #fff;
 	margin:0 0 14px 68px;
 	padding-left:0;
 }
+
+#contact-text {
+	margin-top: 50px;
+}
+
 .contact-info-box h3{
 	font-size: 15px;
 	font-weight:400;
