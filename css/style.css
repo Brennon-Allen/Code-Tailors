@@ -152,11 +152,15 @@ p{
 
 #diagram {
 	margin-top: 25px;
-	width: 100%;
+	max-width: 1500px;
 }
 
 #macbook {
 	margin-top: 50px;
+}
+
+.main-nav {
+	z-index: 3;
 }
 
 .calendly-inline-widget {
