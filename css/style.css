@@ -147,7 +147,7 @@ p{
 	font-weight: 900;
 }
 #get--started--button {
-	background: linear-gradient(to right, #0a4041, #9dfdf5);
+	background: linear-gradient(to right, black, #13655e);
 	border: 1px solid white;
 	font-weight: 600;
 }
