@@ -64,13 +64,13 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 #schedule-button {
-	background: linear-gradient(to right, #0a4041, black);
+	background: linear-gradient(to right, #000000, #00253e);
 	border: 1px solid white;
 	font-weight: 600;
 }
 
 #schedule-button:hover {
-	background: linear-gradient(to right, black, #13655e);
+	background: linear-gradient(to left, black, #000000);
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -158,12 +158,12 @@ p{
 	font-weight: 900;
 }
 #get--started--button {
-	background: linear-gradient(to right, #13655e, #0a4041);
+	background: linear-gradient(to right, #2b9e73, #00253e);
 	border: 1px solid white;
 	font-weight: 600;
 }
 #get--started--button:hover {
-	background: linear-gradient(to right, #0a4041, #13655e);
+	background: linear-gradient(to right, #00b1a3, #007b55);
 	border: 1px solid white;
 	font-weight: 600;
 }
