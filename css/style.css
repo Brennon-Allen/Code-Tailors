@@ -14,7 +14,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;New Message for Code Tailors!contact
 }
 
 .bottom-space {
@@ -771,6 +771,11 @@ border: 2px solid #fff;
 ---------------------------------*/
 .main-section.contact{
 	padding:90px 0 100px;
+	margin-top: 50px;
+}
+
+.top-space {
+	margin-top: 50px;
 }
 
 .main-section.contact{
