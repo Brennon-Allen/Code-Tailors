@@ -75,6 +75,10 @@ a, a:hover, a:active{ outline:0px !important}
 	font-weight: 600;
 }
 
+#diagram {
+	width: 100%;
+}
+
 /* Primary Styles
 ---------------------------------*/
 body {
