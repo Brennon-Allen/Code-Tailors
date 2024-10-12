@@ -27,12 +27,11 @@
 
 #sendButton {
 	background: linear-gradient(to left, #267a73, #25aca1);
-	border-radius: 30px;
+	border-radius: 15px;
 	padding: 10px 30px;
 	color: white;
 	margin: 10px;
 	position: relative;
-	border: 3px solid black;
 	cursor: pointer;
 }
 
