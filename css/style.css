@@ -78,8 +78,6 @@ a, a:hover, a:active{ outline:0px !important}
 	padding: 10px 30px;
 	color: white;
 	margin: 10px;
-	position: absolute;
-	bottom: 50%;
 	cursor: pointer;
 }
 
