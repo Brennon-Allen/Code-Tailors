@@ -168,12 +168,12 @@ p{
 	border: 1px solid white;
 	font-weight: 600;
 }
-#portfolio {
+#portfolio-button {
 	background: linear-gradient(to right, black, black);
 	border: 1px solid white;
 	font-weight: 600;
 }
-#portfolio:hover {
+#portfolio-button:hover {
 	background: linear-gradient(to right, blue, green);
 	border: 1px solid white;
 	font-weight: 600;
