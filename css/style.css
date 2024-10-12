@@ -157,13 +157,24 @@ p{
 #welcome--text {
 	font-weight: 900;
 }
-#get--started--button {
+#services-button {
 	background: linear-gradient(to right, #2b9e73, #00253e);
 	border: 1px solid white;
 	font-weight: 600;
 }
-#get--started--button:hover {
+
+#services-button:hover {
 	background: linear-gradient(to right, #00b1a3, #007b55);
+	border: 1px solid white;
+	font-weight: 600;
+}
+#portfolio {
+	background: linear-gradient(to right, black, black);
+	border: 1px solid white;
+	font-weight: 600;
+}
+#portfolio:hover {
+	background: linear-gradient(to right, blue, green);
 	border: 1px solid white;
 	font-weight: 600;
 }
