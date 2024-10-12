@@ -429,12 +429,11 @@
     </form>
 		    
 	<!--EMAILJS CONTACT FORM SCRIPTS-->
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
-            // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-                publicKey: "OIubt2e0fD3rQ0mGg",
+                publicKey: "DmY0wZSM-dQo01qAD",
             });
         })();
     </script>	    
@@ -443,7 +442,7 @@
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_64wugof', 'template_xglxnu8', this)
+                emailjs.sendForm('service_ggpocf1', 'template_x50w4o5', this)
                     .then(() => {
                         console.log('SUCCESS!');
                     }, (error) => {
