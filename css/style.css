@@ -21,6 +21,10 @@
 	margin-bottom: 50px;
 }
 
+.small-margin {
+	margin: 15px;
+}
+
 /* Clear Floated Elements
 ---------------------------------*/
 .clear {
