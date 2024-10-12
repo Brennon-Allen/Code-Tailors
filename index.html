@@ -385,34 +385,18 @@
             <h2 id="contact-text">Contact Us</h2>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
 
-<!--                REPLACING THIS FORM FOR NOW 
-		    <form class="form">
-                    <input class="input-text" type="text" name="user_name" value="Your Name *"
-                        onfocus="if(this.value==this.defaultValue)this.value='';"
-                        onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="text" name="user_email" value="Your E-mail *"
-                        onfocus="if(this.value==this.defaultValue)this.value='';"
-                        onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <textarea class="input-text text-area" name="nessage" cols="0" rows="0"
-                        onfocus="if(this.value==this.defaultValue)this.value='';"
-                        onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                    <input class="input-btn" id="services-button" type="submit" value="Send Message"/>
-                </form> -->
-
     <!-- CONTACT FORM -->
-    <form id="contact-form">
+    <form class="form" id="contact-form">
         <h1>Contact Form</h1>
-        <input type="hidden" name="contact_number" value="697483">
+        <input class="input-text" type="hidden" name="contact_number" value="697483">
         <label>Name</label>
-        <input type="text" name="user_name">
+        <input class="input-text" type="text" name="user_name">
         <label>Email</label>
-        <input type="email" name="user_email">
+        <input class="input-text" type="email" name="user_email">
         <label>Message</label>
-        <textarea name="message"></textarea>
-        <button id="sendButton" type="submit">Send Message</button>
+        <textarea class="input-text" name="message"></textarea>
+        <button class="input-button" id="sendButton" type="submit">Send Message</button>
     </form>
-
-
 		    
     <script src="./scripts/contact.js"></script>
     <!--EMAILJS CONTACT FORM SCRIPTS-->
@@ -428,7 +412,6 @@
     <script type="text/javascript">
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
                 // these IDs from the previous steps
                 emailjs.sendForm('service_64wugof', 'template_xglxnu8', this)
                     .then(() => {
