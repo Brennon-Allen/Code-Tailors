@@ -164,7 +164,7 @@ p{
 }
 
 #services-button:hover {
-	background: linear-gradient(to right, #00b1a3, #007b55);
+	background: linear-gradient(to right, #00b1a3, black);
 	border: 1px solid white;
 	font-weight: 600;
 }
