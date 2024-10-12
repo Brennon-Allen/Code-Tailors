@@ -258,6 +258,8 @@ color: #fff;
 	text-align:center;
 	margin:10px 0 0px;
 	padding:0;
+	background-color: white;
+	z-index: 1;
 	list-style:none;
 }
 .main-nav li{
