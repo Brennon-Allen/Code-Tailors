@@ -56,6 +56,18 @@ a, a:hover, a:active{ outline:0px !important}
 	align-items: center;
 }
 
+#schedule-button {
+	background: linear-gradient(to right, white, #9dfdf5);
+	border: 1px solid white;
+	font-weight: 600;
+}
+
+#schedule-button:hover {
+	background: linear-gradient(to right, #0a4041, #13655e);
+	border: 1px solid white;
+	font-weight: 600;
+}
+
 /* Primary Styles
 ---------------------------------*/
 body {
