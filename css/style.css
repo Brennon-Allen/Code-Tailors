@@ -92,7 +92,7 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 #schedule-button {
-	background: linear-gradient(to right, #000000, #00253e);
+	background: linear-gradient(to left, #000000, #00253e);
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -188,7 +188,7 @@ p{
 }
 
 #services-button {
-	background: linear-gradient(to bottom, #063c45, black);
+	background: linear-gradient(to right, #1b7b78, #000000);
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -200,7 +200,7 @@ p{
 	font-weight: 600;
 }
 #portfolio-button {
-	background: linear-gradient(to left, #063c45, black);
+	background: linear-gradient(to right, #063c45, black);
 	border: 1px solid white;
 	font-weight: 600;
 }
