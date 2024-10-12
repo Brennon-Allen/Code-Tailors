@@ -3,7 +3,6 @@
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
 
     // Send the email
     emailjs.sendForm('service_64wugof', 'template_xglxnu8', this)
