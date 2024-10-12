@@ -399,8 +399,8 @@
                     <input class="input-btn" id="services-button" type="submit" value="Send Message"/>
                 </form> -->
 
-		    <!-- CONTACT FORM -->
-    <form class="form flex-center" id="contact-form">
+    <!-- CONTACT FORM -->
+    <form id="contact-form">
         <h1>Contact Form</h1>
         <input type="hidden" name="contact_number" value="697483">
         <label>Name</label>
@@ -412,14 +412,16 @@
         <button id="sendButton" type="submit">Send Message</button>
     </form>
 
+
 		    
+    <script src="./scripts/contact.js"></script>
     <!--EMAILJS CONTACT FORM SCRIPTS-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-                publicKey: "DmY0wZSM-dQo01qAD",
+                publicKey: "dlWk2EhYaeU0YZsRb",
             });
         })();
     </script>
