@@ -49,6 +49,13 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
+#landing-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Primary Styles
 ---------------------------------*/
 body {
