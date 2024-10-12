@@ -10,6 +10,13 @@
 .fl-lt {float:left;}
 .fl-rt {float:right;}
 
+.center-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 /* Clear Floated Elements
 ---------------------------------*/
 .clear {
