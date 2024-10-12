@@ -63,7 +63,7 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 #schedule-button:hover {
-	background: linear-gradient(to right, #0a4041, #13655e);
+	background: linear-gradient(to right, black, #13655e);
 	border: 1px solid white;
 	font-weight: 600;
 }
