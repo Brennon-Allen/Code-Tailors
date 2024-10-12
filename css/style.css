@@ -71,6 +71,25 @@ a, a:hover, a:active{ outline:0px !important}
 	align-items: center;
 }
 
+.view-button {
+	background: linear-gradient(to left, #267a73, #25aca1);
+	border-radius: 30px;
+	border: none;
+	padding: 10px 30px;
+	color: white;
+	margin: 10px;
+	position: absolute;
+	bottom: 50%;
+	cursor: pointer;
+}
+
+.view-button:hover {
+	background: none;
+	background-color: #0d3e44;
+	text-decoration: none;
+	color: #55c98b;
+}
+
 #schedule-button {
 	background: linear-gradient(to right, #000000, #00253e);
 	border: 1px solid white;
@@ -78,7 +97,8 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 #schedule-button:hover {
-	background: linear-gradient(to left, black, #000000);
+	background: linear-gradient(to top, black, #000000);
+	cursor: pointer;
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -165,25 +185,28 @@ p{
 #welcome--text {
 	font-weight: 900;
 }
+
 #services-button {
-	background: linear-gradient(to right, #2b9e73, #00253e);
+	background: linear-gradient(to bottom, #063c45, black);
 	border: 1px solid white;
 	font-weight: 600;
 }
 
 #services-button:hover {
-	background: linear-gradient(to right, #00b1a3, black);
+	background: linear-gradient(to top, black, black);
 	border: 1px solid white;
+	cursor: pointer;
 	font-weight: 600;
 }
 #portfolio-button {
-	background: linear-gradient(to right, #2b9e73, #00253e);
+	background: linear-gradient(to left, #063c45, black);
 	border: 1px solid white;
 	font-weight: 600;
 }
 #portfolio-button:hover {
-	background: linear-gradient(to right, #2b9e73, black);
+	background: linear-gradient(to bottom, black, black);
 	border: 1px solid white;
+	cursor: pointer;
 	font-weight: 600;
 }
 .fa-social {
