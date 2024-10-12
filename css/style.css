@@ -17,6 +17,10 @@
 	justify-content: center;
 }
 
+.bottom-space {
+	margin-bottom: 50px;
+}
+
 /* Clear Floated Elements
 ---------------------------------*/
 .clear {
