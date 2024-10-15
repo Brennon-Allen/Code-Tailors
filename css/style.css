@@ -317,6 +317,7 @@ color: #fff;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
 	background:#fff;
+	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
