@@ -11,9 +11,11 @@
 .fl-rt {float:right;}
 
 #landing-image-div {
+	width: 100%;
 	background-image: url(../img/calm-gif.gif); /* Image URL separated from color */
 	background-repeat: no-repeat;
-	background-position: bottom; /* Center the background image */
+	background-position: center; /* Center the background image */
+	background-size: cover;
 }
 
 .flex-center {
