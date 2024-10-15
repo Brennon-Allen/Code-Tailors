@@ -103,8 +103,7 @@
 		align-items: center;
 	}
 	.main-section{ 
-		padding:60px 0 70px;
-		top: 100px;
+		padding: 25px 5px;
 	}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; background:#fff;}
 	.main-nav li{ display:block;}
