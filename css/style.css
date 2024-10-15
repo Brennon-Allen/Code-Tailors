@@ -392,12 +392,16 @@ color: #fff;
 	font-size:14px;
 }
 .featured-work h2{
-	text-align:left;
+	text-align:center;
 }
 .featured-box{
 	padding:0 0 0 0;
 	margin-bottom:25px;
 	font-size:14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 .featured-box h3{
