@@ -92,7 +92,7 @@ a, a:hover, a:active{ outline:0px !important}
 
 .view-button {
 	background: linear-gradient(to left, #267a73, #25aca1);
-	border-radius: 30px;
+	border-radius: 10px;
 	border: none;
 	padding: 10px 30px;
 	color: white;
