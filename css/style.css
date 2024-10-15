@@ -10,6 +10,16 @@
 .fl-lt {float:left;}
 .fl-rt {float:right;}
 
+#landing-image-div {
+	position:static;
+	width: 100%;
+	background-color: black; /* Background color defined separately */
+	background-image: url(../img/calm-gif.gif); /* Image URL separated from color */
+	background-repeat: no-repeat;
+	background-position: bottom; /* Center the background image */
+	background-size: 215%; /* Adjust size to zoom in */
+}
+
 .flex-center {
 	display: flex;
 	flex-direction: column;
@@ -165,11 +175,6 @@ p{
 
 .header {
 	text-align: center;
-	background-color: black; /* Background color defined separately */
-	background-image: url(../img/calm-gif.gif); /* Image URL separated from color */
-	background-repeat: no-repeat;
-	background-position: center; /* Center the background image */
-	background-size: 85%; /* Adjust size to zoom in */
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
