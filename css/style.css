@@ -654,11 +654,8 @@ border: 2px solid #fff;
   
   .team-leader-box{
 	width: 28%;
-	margin-right: 4%;
-	height: 490px;
-	overflow: hidden;
+	height: auto;
 	text-align: center;
-	float: left;
   }
   
   .team-leader-box span{
