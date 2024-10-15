@@ -545,7 +545,7 @@ img {
   }
   
   .main-section.paddind{
-	  padding-bottom:60px;
+	  padding-bottom: 25px;
   }
   .main-section .col-lg-5 .col-sm-4   wow fadeInLeft{
   
@@ -637,7 +637,7 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:85px 0;
+	padding: 25px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
