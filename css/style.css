@@ -83,6 +83,10 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
+.bottom-border {
+	border-bottom: 2px solid darkgrey;
+}
+
 #landing-buttons {
 	display: flex;
 	flex-direction: column;
@@ -99,7 +103,7 @@ a, a:hover, a:active{ outline:0px !important}
 	font-weight: 700px;
 	margin: 10px;
 	position: relative;
-	margin-top: -50px;
+	margin-top: 5px;
 	border: 3px solid white;
 	cursor: pointer;
 }
