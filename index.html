@@ -344,14 +344,14 @@
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
 
     <!-- CONTACT FORM -->
-    <form class="form flex-center" id="contact-form">
+    <form class="form flex-center" id="contactForm">
         <input class="input-text" type="hidden" name="contact_number" value="697483">
         <label>Name</label>
-        <input class="input-text" type="text" name="user_name">
+        <input class="input-text"  type="text" id="name" placeholder=" Full Name " required>
         <label>Email</label>
-        <input class="input-text" type="email" name="user_email">
+        <input class="input-text" type="email" id="email" placeholder=" Email " required >
         <label>Message</label>
-        <textarea class="input-text" name="message"></textarea>
+        <textarea class="input-text" type="text" id="message" placeholder=" Message "></textarea>
         <button id="sendButton" type="submit">Send Message</button>
     </form>
 		    
