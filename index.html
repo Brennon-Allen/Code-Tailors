@@ -354,45 +354,29 @@
         <textarea class="input-text" type="text" id="message" placeholder=" Message "></textarea>
         <button id="sendButton" type="submit">Send Message</button>
     </form>
+
+<!-- EmailJS scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("dlWk2EhYaeU0YZsRb"); // Replace with your EmailJS Public Key
+    })();
+  </script>
+<script src="./js/email-js.js"></script>
+  <!-- end of emailJS -->
 		    
-    <script src="./scripts/contact.js"></script>
-    <!--EMAILJS CONTACT FORM SCRIPTS-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-                publicKey: "dlWk2EhYaeU0YZsRb",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                // these IDs from the previous steps
-                emailjs.sendForm('service_64wugof', 'template_xglxnu8', this)
-                    .then(() => {
-                        console.log('SUCCESS!');
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
             </div>
         </div>
     </section>
+	
 </div>
+	
 <footer class="footer">
     <div class="container">
-        
-                         <div class="copyright">
-                <p>&copy; 2024 Code Tailors. All Rights Reserved. | <a href="code-tailors.com">Privacy Policy</a></p>
-            </div>
-        </footer>
-        
+        <div class="copyright">
+        	<p>&copy; 2024 Code Tailors. All Rights Reserved. | <a href="code-tailors.com">Privacy Policy</a></p>
+        </div>
     </div>
-
 </footer>
 
 
