@@ -518,6 +518,7 @@ color: #fff;
 	width:350px;
 	overflow:hidden;
 	display: flex;
+	margin: 10px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -526,6 +527,7 @@ color: #fff;
 }
 .Portfolio-box img{
 	margin-bottom:25px;
+	border: 3px dashed black;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
