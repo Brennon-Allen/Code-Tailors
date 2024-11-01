@@ -1,1 +1,1 @@
-﻿# code-tailors
+Code Tailors
