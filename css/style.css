@@ -83,9 +83,15 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
+.margin-bottom-5 {
+	margin-bottom: 5px;
+}
+
 .bottom-border {
 	border-bottom: 2px solid darkgrey;
 }
+
+
 
 #landing-buttons {
 	display: flex;
@@ -95,13 +101,14 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 .view-button {
-	background: linear-gradient(to left, #267a73, #25aca1);
-	border-radius: 10px;
+	background: linear-gradient(to left, #002b27, #006a61);
+	border-radius: 25px;
 	padding: 10px 30px;
 	color: white;
 	text-transform: uppercase;
-	font-weight: 700px;
+	font-weight: 800px;
 	margin: 10px;
+	font-size: 1.5em;
 	position: relative;
 	margin-top: 5px;
 	border: 3px solid white;
